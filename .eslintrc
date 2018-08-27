@@ -1,0 +1,39 @@
+{
+  "extends": [
+    "plugin:flowtype/recommended",
+    "prettier",
+    "prettier/flowtype",
+    "prettier/react"
+  ],
+  "plugins": ["react", "flowtype", "prettier"],
+  "parser": "babel-eslint",
+  "globals": {
+    "document": false,
+    "window": false
+  },
+  "rules": {
+    "react/prefer-stateless-function": 0,
+    "react/destructuring-assignment": 0,
+    "react/sort-comp": 0,
+    "import/prefer-default-export": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "flow.useNPMPackagedFlow": true,
+    "javascript.validate.enable": false,
+    "react/jsx-wrap-multilines": [
+      "error",
+      {
+        "declaration": "parens-new-line",
+        "assignment": "parens-new-line",
+        "return": "parens-new-line",
+        "arrow": "parens-new-line",
+        "condition": "parens-new-line",
+        "logical": "parens-new-line",
+        "prop": "parens-new-line"
+      }
+    ]
+  },
+  "settings": {},
+  "env": {
+    "jest": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "react-clipboard",
+  "version": "1.0.0",
+  "description": "Simple React Clipboard",
+  "author": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leonardoelias/react-clipboard"
+  },
+  "peerDependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
